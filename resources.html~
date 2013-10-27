@@ -1,0 +1,34 @@
+<!DOCTYPE = html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body background ="images/background2.png">
+<ul class="navlist">
+	<a href="index.html"><img class="nav" id =home src ="images/home.png" ></a>
+	
+	<a href="http://www.facebook.com/anubhav.ashok"><img class="nav" id =facebook src="images/fb.png"></a>
+	
+	<a href="http://www.github.com/anubhavashok"><img class="nav" id =github src="images/github2.png" ></a>
+	
+	<a href="http://www.linkedin.com/pub/anubhav-ashok/57/432/227"><img class="nav" id =linkedin src="images/linkedin.png" ></a>
+	
+<ul>
+<ul class="linklist">
+	<div class="linkcat">
+	Programming	
+	<li class=link>
+		<a href="">deepc</a>
+	</li>
+	</div>
+	<div class="linkcat">
+	Mindsets	
+	</div>
+	<div class="linkcat">
+	Interesting	
+	</div>
+</ul>
+<footer>
+	Content and design by <a href="mailto:anubhavashok93@gmail.com">Anubhav Ashok</a>
+</body>
+</html>
