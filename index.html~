@@ -62,11 +62,7 @@
 </ul>
 
 <p id="quote">
-	<?php
-		$query = "SELECT quote FROM quotes ORDER BY RAND() LIMIT 1;";
-		$result=  mysql_query($query);
-		echo "lol";
-	?>
+	"I am easily satisfied with the very best."
 </p>
 <p id="quoteby">
 	-Winston Churchill

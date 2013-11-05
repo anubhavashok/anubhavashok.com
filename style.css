@@ -2,21 +2,19 @@
 {
 	opacity: 0.4;
 	-moz-backface-visibility:    hidden;
-	height: 4vh;
-	width: 4vh;
-	padding-right: 3vh;
+	height: 35px;
+	width: 35px;
+	padding-right: 35px;
 }
 .nav:hover
 {
-	opacity: 1;
-
-	
+	opacity: 1;	
 }
 #home
 {
 
 	position:absolute;
-	left: 10vh;
+	left: 100px;
 }
 .navlist
 {
@@ -25,38 +23,38 @@
 
 .main
 {
-	height: 30vh;
-	width: 30vh;
+	height: 250px;
+	width: 250px;
 	border-style: dashed;
 	border-color: gray;
 	border-width: 2px;
 	overflow: hidden;
 	display: inline-block;
-	margin: 10vh;
-	font-size: 5vh;
-	line-height: 15vh;
+	margin: 80px;
+	font-size: 40px;
+	line-height: 120px;
 	color: #D0B314;
 <!--#E8E9BE,#BAE8CD,#B3E0E6-->
 <!--#FFEB85 for yellow, also switch about me and projects -->
 }
 #projects:hover
 {
+	color: #3A8A96;
+	background: #B3E0E6;
+}
+#aboutme:hover
+{
 	color: #A7911F;
 	background: #FFE55C;
 }
-#aboutme:hover
+#resources:hover
 {
 	color: #3C9761;
 	background: #BAE8CD;
 }
-#resources:hover
-{
-	color: #3A8A96;
-	background: #B3E0E6;
-}
 .mainlist
 {
-	padding-top: 8vh;
+	padding-top: 65px;
 	text-align: center;
 
 }
@@ -70,7 +68,7 @@ a, a:focus
 {
 	color: gray;
 	font-style: italic;
-	font-size: 2vh;
+	font-size: 18px;
 	text-align: center;
 }
 #quoteby
@@ -78,32 +76,51 @@ a, a:focus
 	color: gray;
 	font-style: italic;
 	text-align: right;
-	font-size: 1.8vh;
-	padding-right: 50vh;
+	font-size: 15px;
+	padding-right: 480px;
 }
 footer
 {
-
-	position: absolute;
-	bottom: 2vh;
-	text-align: center;
-	right: 10vh;
+	clear:both;
+	text-align: right;
 	color: gray;
-	font-size: 1.5vh;
+	font-size: 12px;
 }
+/*Resources*/
 .linklist
 {
 	text-align: center;
-	padding: 10vh;
+	padding: 85px;
 }
 .linkcat
 {
-	font-size: 5vh;
-	padding: 3vh;
+	font-size: 40px;
+	padding: 25px;
 }
 .link
 {
-	font-size: 3vh;
+	font-size: 25px;
 }
 
-
+/*About Me*/
+#mystory
+{
+	padding-top: 6%;
+	text-align: center;
+}
+#portrait
+{
+	width: 35px;
+	height: 35px;
+}
+/*Projects*/
+/*HPCQuest*/
+#project
+{
+	background-color: white;
+	border: dashed;
+	border-color:gray;
+	width: 60%;
+	height: 80%;
+	margin:auto;
+}
