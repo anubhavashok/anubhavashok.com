@@ -1,3 +1,7 @@
+.body
+{
+font-family: 'Open Sans', sans-serif;
+}
 .nav
 {
 	opacity: 0.4;
@@ -37,20 +41,47 @@
 <!--#E8E9BE,#BAE8CD,#B3E0E6-->
 <!--#FFEB85 for yellow, also switch about me and projects -->
 }
+#projects
+{
+	/*background-image: url('images/projects.png');*/
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#aboutme
+{
+	/*background-image: url('images/aboutme.png');*/
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#blog
+{
+	/*background-image: url('images/blog.png');*/
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
 #projects:hover
 {
 	color: #3A8A96;
-	background: #B3E0E6;
+
+	background-image: url('images/projects2.png');
+	background-position: bottom;
+	background-color: #B3E0E6;
 }
 #aboutme:hover
 {
 	color: #A7911F;
-	background: #FFE55C;
+	background-repeat: no-repeat;
+	background-image: url('images/aboutme2.png');
+	background-position: bottom;
+	background-color: #FFE55C;
 }
-#resources:hover
+#blog:hover
 {
 	color: #3C9761;
-	background: #BAE8CD;
+	background-repeat: no-repeat;
+	background-image: url('images/blog2.png');
+	background-position: bottom;
+	background-color: #BAE8CD;
 }
 .mainlist
 {
@@ -86,7 +117,7 @@ footer
 	color: gray;
 	font-size: 12px;
 }
-/*Resources*/
+/*Blog*/
 .linklist
 {
 	text-align: center;
@@ -103,10 +134,22 @@ footer
 }
 
 /*About Me*/
+#mypic
+{
+	border-style: dashed;
+	border-color: gray;
+	border-width: 2px;
+}
 #mystory
 {
-	padding-top: 10%;
-	text-align: center;
+	padding-top: 4%;
+	text-align:center;
+	padding-bottom: 10%;
+}
+.about_titles
+{
+	padding-top: 3%;
+	color: orange;
 }
 #portrait
 {
@@ -115,12 +158,37 @@ footer
 }
 /*Projects*/
 /*HPCQuest*/
-#project
+.project
 {
-	background-color: white;
+	width:70%;
+	margin: 5%;
+	padding-left: 10%;
+	display: inline;
+	float:left;
+	text-align:center;
+}
+.project_image
+{
 	border: dashed;
 	border-color:gray;
-	width: 60%;
-	height: 80%;
-	margin:auto;
+	float:right;
 }
+.project_text
+{
+	text-align:left;
+}
+#projects_title
+{
+	text-align:center;
+	padding-right: 13%;
+	color:orange;
+}
+/*Coming Soon*/
+#comingsoon
+{
+	padding-top: 15%;
+	font-size: 60px;
+	text-align: center;
+	color: orange;
+}
+

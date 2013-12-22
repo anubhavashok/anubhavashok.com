@@ -1,6 +1,7 @@
 <!DOCTYPE = html>
 <html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <title>Welcome Home</title>
                 <link href="kudos.css" media="screen" rel="stylesheet" type="text/css" />
                 <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
@@ -26,7 +27,7 @@
             mysql_select_db($dbname);
             ?>
 </head>
-<body background ="images/background2.png">
+<body class ="body" background ="images/background2.png">
 <ul class="navlist">
 
     <a href="index.php">
@@ -59,9 +60,9 @@
 	</p>
 	</a>
 
-	<a href= "resources.html">
-	<p class="main" id="resources">
-	Resources
+	<a href= "https://medium.com/@anubhavashok">
+	<p class="main" id="blog">
+	Blog
 	</p>
 	</a>
 </ul>

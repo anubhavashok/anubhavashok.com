@@ -1,6 +1,7 @@
 <!DOCTYPE = html>
 <html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body background ="images/background2.png">
@@ -14,6 +15,7 @@
 	<a href="http://www.linkedin.com/pub/anubhav-ashok/57/432/227"><img class="nav" id =linkedin src="images/linkedin.png" ></a>
 	
 <ul>
+<p id="comingsoon">Coming Soon!</p>
 <footer>
 	Content and design by <a href="mailto:anubhavashok93@gmail.com">Anubhav Ashok</a>
 </body>
