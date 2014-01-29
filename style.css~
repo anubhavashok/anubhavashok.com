@@ -43,19 +43,19 @@ font-family: 'Open Sans', sans-serif;
 }
 #projects
 {
-	/*background-image: url('images/projects.png');*/
+	background-image: url('images/projects.png');
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 #aboutme
 {
-	/*background-image: url('images/aboutme.png');*/
+	background-image: url('images/aboutme.png');
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 #blog
 {
-	/*background-image: url('images/blog.png');*/
+	background-image: url('images/blog.png');
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
@@ -176,6 +176,7 @@ footer
 .project_text
 {
 	text-align:left;
+	padding-right: 25%;
 }
 #projects_title
 {
